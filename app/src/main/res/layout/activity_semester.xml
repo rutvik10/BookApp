@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".semester">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/book"
+        android:layout_gravity="center"
+        android:id="@+id/imgView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SEM 1"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SEM 2"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SEM 3"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SEM 4"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SEM 5"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SEM 6"
+            android:id="@+id/sem6"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SEM 7"
+            android:textSize="20dp"
+
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SEM 8"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Logout"
+         />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/book"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".dwm2"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".dwm1"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".spccbook2"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".spccbook1"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".CSS"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".DWM"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".SE"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".ML"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".spcc"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".link"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".subject"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".syllabussem6"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".sem6"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".semester"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".login"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+    </application>
+
+</manifest>
